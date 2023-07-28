@@ -1109,6 +1109,11 @@ section {
 }
 
 @media (max-width: 768px) {
+  .breadcrumbs h2 {
+    font-size: 20px;
+    max-width: 300px;
+    font-weight: 500;
+  }
   .breadcrumbs .d-flex {
     display: block !important;
   }
