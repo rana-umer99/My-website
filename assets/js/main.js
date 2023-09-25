@@ -88,6 +88,20 @@
     onscroll(document, toggleBacktotop)
   }
 
+  // scroll to bottom
+  let pageScroller = select('.scroll-to-bottom');
+  if (pageScroller) {
+    const toggleScrollDown = () => {
+      if (window.scrollY > 100) {
+        pageScroller.classList.add('active')
+      } else {
+        pageScroller.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', toggleScrollDown)
+    onscroll(document, toggleScrollDown)
+  }
+
   /**
    * Mobile nav toggle
    */
