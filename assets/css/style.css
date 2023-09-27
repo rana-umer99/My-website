@@ -462,15 +462,6 @@ h6 {
   }
 }
 
-.embed-responsive{
-  /* width: 100%; */
-}
-
-.youtube-video{
-  /* min-width: 320px; */
-  /* width: 100%; */
-}
-
 .youtube-container {
   position: relative;
   width: 100%;
